@@ -18,12 +18,12 @@ Data Source: https://www.kaggle.com/datasets/vishweshsalodkar/customer-feedback-
 ### 1 - Import Statements and Libraries:  Import necessary libraries and tools for data cleaning process.
 	
 	
-```
+```python
 import pandas as pa
 data = pd. read_csv("sentiment-analysis.csv", header=0) 
 ```
 
-``` 
+```python 
 import pandas as pa
 data = pd. read_csv("sentiment-analysis.csv", header=0)
 ```
