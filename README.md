@@ -6,11 +6,11 @@
 ### Technologies  and tools used: 
 
  
-|Jupyter Notebook |: open-source software|
+|Jupyter Notebook :| open-source software|
 | :------------ |:---------------:|
-Python : code language written
+Python :| code language written
 | :------------ |:---------------:|
-|Pandas |: data manipulation and library for Python
+|Pandas :| data manipulation and library for Python|
 
 File name : 
 feelings.ipynb
