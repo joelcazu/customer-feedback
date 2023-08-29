@@ -17,7 +17,7 @@ feelings.ipynb
 Data Source: https://www.kaggle.com/datasets/vishweshsalodkar/customer-feedback-dataset
 
 	
-### 1 - Import Statements and Libraries:  Import necessary libraries and tools for data cleaning process.
+## 1 - Import Statements and Libraries:  Import necessary libraries and tools for data cleaning process.
 	
 	
 ```python
@@ -30,7 +30,7 @@ import pandas as pa
 data = pd. read_csv("sentiment-analysis.csv", header=0)
 ```
 	
-### 2 - Split Data : To better organise the database, we divided it into columns with their respective names.
+## 2 - Split Data : To better organise the database, we divided it into columns with their respective names.
 	
 	
 ``` python	
@@ -42,7 +42,7 @@ data = data['Text, Sentiment, Source, Date/Time, User ID, Location, Confidence S
 ```
 	
 	
-### 3 - Rename method : For better syntax practise, I renamed column 'Date/Time' to 'DateTime' in this case.
+## 3 - Rename method : For better syntax practise, I renamed column 'Date/Time' to 'DateTime' in this case.
 	
 	
 ```python 
@@ -62,7 +62,7 @@ data = data['Text, Sentiment, Source, Date/Time, User ID, Location, Confidence S
 ![error](https://github.com/joelcazu/customer-feedback/blob/6baee22e10445348eee92635eb793a8302fbeaba/printout.png)	
 	
 	
-### 4 - Drop duplicates : method to remove duplicated rows, such no values like NaN additionally Specifying which row is providing this information.
+## 4 - Drop duplicates : method to remove duplicated rows, such no values like NaN additionally Specifying which row is providing this information.
 	
 ```python 
 	
@@ -70,7 +70,7 @@ data = data['Text, Sentiment, Source, Date/Time, User ID, Location, Confidence S
 	data.drop(labels=[96, 97], axis=0)
 ```
 	
-### 5 - Save .CSV - Once the cleaning is finished, use the following procedure to save the changed DB .csv format for use in the next step.
+## 5 - Save .CSV - Once the cleaning is finished, use the following procedure to save the changed DB .csv format for use in the next step.
 	
 ```python 
 	
