@@ -31,15 +31,13 @@ data = pd. read_csv("sentiment-analysis.csv", header=0)
 ### 2 - Split Data : To better organise the database, we divided it into columns with their respective names.
 	
 	
-\``` 
-	
+``` python	
 data['Text, Sentiment, Source, Date/Time, User ID, Location, Confidence Score'].str.split(',')
 	
 data['Text, Sentiment, Source, Date/Time, User ID, Location, Confidence Score'].str.split(',',n=1)
 	
 data = data['Text, Sentiment, Source, Date/Time, User ID, Location, Confidence Score'].str.split(',',n=7, expand=True)
-	
-/```
+```
 	
 	
 ### 3 - Rename method : For better syntax practise, I renamed column 'Date/Time' to 'DateTime' in this case.
