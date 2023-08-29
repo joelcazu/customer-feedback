@@ -15,7 +15,7 @@
           Data Source: https://www.kaggle.com/datasets/vishweshsalodkar/customer-feedback-dataset
 
 	
-	### 1 - Import Statements and Libraries:  Import necessary libraries and tools for data cleaning process.
+	###1 - Import Statements and Libraries:  Import necessary libraries and tools for data cleaning process.
 	
 	
          ```
@@ -28,7 +28,7 @@
 	data = pd. read_csv("sentiment-analysis.csv", header=0)
 	```
 	
-	### 2 - Split Data : To better organise the database, we divided it into columns with their respective names.
+	###2 - Split Data : To better organise the database, we divided it into columns with their respective names.
 	
 	
 	\``` 
