@@ -15,7 +15,7 @@ feelings.ipynb
 Data Source: https://www.kaggle.com/datasets/vishweshsalodkar/customer-feedback-dataset
 
 	
-###1 - Import Statements and Libraries:  Import necessary libraries and tools for data cleaning process.
+### 1 - Import Statements and Libraries:  Import necessary libraries and tools for data cleaning process.
 	
 	
 ```
@@ -23,26 +23,26 @@ import pandas as pa
 data = pd. read_csv("sentiment-analysis.csv", header=0) 
 ```
 
-	``` 
-	import pandas as pa
-	data = pd. read_csv("sentiment-analysis.csv", header=0)
-	```
+``` 
+import pandas as pa
+data = pd. read_csv("sentiment-analysis.csv", header=0)
+```
 	
-	###2 - Split Data : To better organise the database, we divided it into columns with their respective names.
-	
-	
-	\``` 
-	
-	data['Text, Sentiment, Source, Date/Time, User ID, Location, Confidence Score'].str.split(',')
-	
-	data['Text, Sentiment, Source, Date/Time, User ID, Location, Confidence Score'].str.split(',',n=1)
-	
-	data = data['Text, Sentiment, Source, Date/Time, User ID, Location, Confidence Score'].str.split(',',n=7, expand=True)
-	
-	/```
+### 2 - Split Data : To better organise the database, we divided it into columns with their respective names.
 	
 	
-	3 - Rename method : For better syntax practise, I renamed column 'Date/Time' to 'DateTime' in this case.
+\``` 
+	
+data['Text, Sentiment, Source, Date/Time, User ID, Location, Confidence Score'].str.split(',')
+	
+data['Text, Sentiment, Source, Date/Time, User ID, Location, Confidence Score'].str.split(',',n=1)
+	
+data = data['Text, Sentiment, Source, Date/Time, User ID, Location, Confidence Score'].str.split(',',n=7, expand=True)
+	
+/```
+	
+	
+### 3 - Rename method : For better syntax practise, I renamed column 'Date/Time' to 'DateTime' in this case.
 	
 	
 	\``` 
