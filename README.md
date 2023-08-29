@@ -57,7 +57,7 @@ data = data['Text, Sentiment, Source, Date/Time, User ID, Location, Confidence S
 	data.rename(columns = {'Date/Time':'DateTime'}, inplace = True)
 ```
 	
-![error](URL "https://github.com/joelcazu/customer-feedback/blob/6baee22e10445348eee92635eb793a8302fbeaba/printout.png")	
+![error](https://github.com/joelcazu/customer-feedback/blob/6baee22e10445348eee92635eb793a8302fbeaba/printout.png)	
 	
 	
 ### 4 - Drop duplicates : method to remove duplicated rows, such no values like NaN additionally Specifying which row is providing this information.
