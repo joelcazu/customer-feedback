@@ -18,8 +18,11 @@
 	1 - Import Statements and Libraries:  Import necessary libraries and tools for data cleaning process.
 	
 	
-         ```import pandas as pa
-	data = pd. read_csv("sentiment-analysis.csv", header=0) ```
+         ```
+	 import pandas as pa
+	data = pd. read_csv("sentiment-analysis.csv", header=0) 
+         ```
+
 	
 	2 - Split Data : To better organise the database, we divided it into columns with their respective names.
 	
