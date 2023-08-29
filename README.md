@@ -8,8 +8,7 @@
  
 |Jupyter Notebook :| open-source software|
 | :------------ |:---------------:|
-Python :| code language written
-| :------------ |:---------------:|
+|Python :| code language written|
 |Pandas :| data manipulation and library for Python|
 
 File name : 
