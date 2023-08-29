@@ -43,7 +43,7 @@ data = data['Text, Sentiment, Source, Date/Time, User ID, Location, Confidence S
 ### 3 - Rename method : For better syntax practise, I renamed column 'Date/Time' to 'DateTime' in this case.
 	
 	
-	\``` 
+``` 
 	
 	data.rename(columns={0:'Text',
 	                           1:'Sentiment',
@@ -55,23 +55,23 @@ data = data['Text, Sentiment, Source, Date/Time, User ID, Location, Confidence S
 	data
 	
 	data.rename(columns = {'Date/Time':'DateTime'}, inplace = True)
-	/```
+```
 	
 	
 	
 	
-	4 - Drop duplicates : method to remove duplicated rows, such no values like NaN additionally Specifying which row is providing this information.
+### 4 - Drop duplicates : method to remove duplicated rows, such no values like NaN additionally Specifying which row is providing this information.
 	
-	\``` 
+``` 
 	
 	data.drop_duplicates()
 	data.drop(labels=[96, 97], axis=0)
-	/```
+```
 	
-	5 - Save .CSV - Once the cleaning is finished, use the following procedure to save the changed DB .csv format for use in the next step.
+### 5 - Save .CSV - Once the cleaning is finished, use the following procedure to save the changed DB .csv format for use in the next step.
 	
-	\``` 
+``` 
 	
 	 data.to_csv('modified_feelings.csv', index=True)
 	
-	/```
+```
