@@ -1,27 +1,27 @@
 # customer-feedback
 
-	*** For this project, I'm using Python and Pandas to clean and analyse customer feedback data. Understanding the emotion, sources, dates, and confidence scores in the data is my goal. A polished CSV file is produced at the end of the comprehensive data cleansing procedure, which is included within a Jupyter Notebook. I then use Pandas, NumPy, and Matplotlib in another Notebook to carry out various statistical studies. To efficiently depict trends connected to data sources and emotion distribution, visual representations like histograms and bar graphs are used. As part of my research, I am also investigating the analysis of daily confidence score patterns by drawing conclusions from the "DateTime" column.
+*** For this project, I'm using Python and Pandas to clean and analyse customer feedback data. Understanding the emotion, sources, dates, and confidence scores in the data is my goal. A polished CSV file is produced at the end of the comprehensive data cleansing procedure, which is included within a Jupyter Notebook. I then use Pandas, NumPy, and Matplotlib in another Notebook to carry out various statistical studies. To efficiently depict trends connected to data sources and emotion distribution, visual representations like histograms and bar graphs are used. As part of my research, I am also investigating the analysis of daily confidence score patterns by drawing conclusions from the "DateTime" column.
 	
 	
-	Technologies  and tools used: 
+Technologies  and tools used: 
 	
-	• Jupyter Notebook : open-source software
-	• Python : code language written
-	• Pandas: data manipulation and library for Python
+• Jupyter Notebook : open-source software
+• Python : code language written
+• Pandas: data manipulation and library for Python
 
-          File name : 
-          feelings.ipynb
+File name : 
+feelings.ipynb
 
-          Data Source: https://www.kaggle.com/datasets/vishweshsalodkar/customer-feedback-dataset
+Data Source: https://www.kaggle.com/datasets/vishweshsalodkar/customer-feedback-dataset
 
 	
-	###1 - Import Statements and Libraries:  Import necessary libraries and tools for data cleaning process.
+###1 - Import Statements and Libraries:  Import necessary libraries and tools for data cleaning process.
 	
 	
-         ```
-	 import pandas as pa
-	data = pd. read_csv("sentiment-analysis.csv", header=0) 
-         ```
+```
+import pandas as pa
+data = pd. read_csv("sentiment-analysis.csv", header=0) 
+```
 
 	``` 
 	import pandas as pa
